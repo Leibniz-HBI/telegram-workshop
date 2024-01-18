@@ -89,38 +89,20 @@
 
 # 
 
-# Fundamentals of (Online ((Social) Media)) Network Analysis
+# Fundamentals of (Online ((Social) Media)) and Telegram Network Analysis
 
-## Lecture 1
-Online Social Networks, Elements of Networks, Network Measures, Data Sources
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+Felix Victor Münch, Philipp Kessling
 
-# Who is this guy?
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-# Why are you here?
-
-Who are you?
-
-Why did you choose this course?
-
-What are your expectations for this day?
+(shortened and adapted from https://flxvctr.github.io/Fundamentals-of-Online-Social-Network-Analysis/)
 </div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 # The Plan
 
-1. Online (Social) Media Network Fundamentals
-2. Network fundamentals
-3. *break*
-4. Network Analysis Methods
-5. Data Mining Possibilities and Difficulties
-
-Afterwards:
-
-Practical on Data Collection and Exploratory Analysis with Descriptive Statistics in Python
+1. Network Fundamentals
+2. Telegram Networks
+3. Network Analysis Methods
+4. Hands-on network analysis of Lützerath data
 </div></script></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
@@ -181,7 +163,7 @@ Münch, F. V. (2019). _Measuring the Networked Public – Exploring Network Scie
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### The number and size of connected components indicates the influence of the network compared to outside sources
+### The number and size of connected components is a proxy for the influence of the platform compared to outside sources
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
@@ -218,16 +200,6 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### Australian Twittersphere
-
-<img src="slides/Pasted image 20230318193253.png" alt="" style="width: px; height: 900px; object-fit: fill">
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<img src="slides/Pasted image 20230318193337.png" alt="" style="width: px; height: 900px; object-fit: fill">
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
 ### German Twittersphere
 
 <img src="slides/Pasted image 20230318193447.png" alt="" style="width: px; height: 900px; object-fit: fill">
@@ -235,21 +207,13 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 <img src="slides/Pasted image 20230318193530.png" alt="" style="width: px; height: 900px; object-fit: fill">
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+</div></script></section></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### German-Italian Twittersphere
+# Telegram Networks
 
-<img src="slides/Pasted image 20230318193900.png" alt="" style="width: px; height: 900px; object-fit: fill">
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<img src="slides/Pasted image 20230318193758.png" alt="" style="width: px; height: 900px; object-fit: fill">
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<img src="slides/Pasted image 20230318193931.png" alt="" style="width: px; height: 900px; object-fit: fill">
-</div></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+@PK
+</div></script></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 # Network Analysis Fundamentals
@@ -380,38 +344,6 @@ The more shortest paths are going through a node, the higher its betweenness.
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### Local Clustering Coefficient
-
-<split left="7" right="1" gap="4">
-
-
-</br></br></br></br></br></br>
-The number of realized edges divided by the number of possible edges between neighbouring nodes
-
-<img src="slides/Pasted image 20230322193953.png" alt="" style="width: px; height: 800px; object-fit: fill">
-
-
-</split>
-
-<aside class="notes"><p>Image is public domain (<a href="https://commons.wikimedia.org/wiki/File:Clustering_coefficient_example.svg">https://commons.wikimedia.org/wiki/File:Clustering_coefficient_example.svg</a>)</p>
-</div></aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-### Important Global Network Measures
-
-
-**Global Clustering Coefficient** `$= \frac{\text{number of closed triplets}}{\text{number of all triplets}}$`
-
-**Diameter**: longest shortest path of the network
-
-**Density**:  `$= \frac{\text{number of links}}{\text{number of possible links}}$`
-
-**Average Shortest Path Length**
-
-**& Averages of most node measures (e.g., average degree, betweenness, closeness, …)**
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
 ## Networks within Networks
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
@@ -434,28 +366,6 @@ The number of realized edges divided by the number of possible edges between nei
 </aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### Cliques
-
-<img src="slides/Pasted image 20230321174955.png" alt="" style="width: px; height: 900px; object-fit: fill">
-</div>
-
-<aside class="notes"><p>Image is Public Domain: <a href="https://en.wikipedia.org/wiki/Clique_(graph_theory)#/media/File:VR_complex.svg">https://en.wikipedia.org/wiki/Clique_(graph_theory)#/media/File:VR_complex.svg</a></p>
-</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-### K-Cores
-
-<img src="slides/Pasted image 20230322162554.png" alt="" style="width: px; height: 600px; object-fit: fill">
-
-
-(can also be used as a node centrality measure)
-</div>
-
-<aside class="notes"><p>The graph that remains after iteratively removing every node with less than <code>k</code> links.
-Image is CC0/public domain: <a href="https://en.wikipedia.org/wiki/Degeneracy_(graph_theory)#/media/File:2-degenerate_graph_2-core.svg">https://en.wikipedia.org/wiki/Degeneracy_(graph_theory)#/media/File:2-degenerate_graph_2-core.svg</a></p>
-</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
 ### Communities/Clusters
 
 Depend on the detection algorithms used. Two of the most popular are
@@ -464,7 +374,7 @@ Depend on the detection algorithms used. Two of the most popular are
 
 and
 
-* ***Map Equation (infomap)*** based on the lenght of stay of random walks in certain regions of the network (technically the minimization of the description length of its path)
+* ***Map Equation (infomap)*** based on the length of stay of random walks in certain regions of the network (technically the minimization of the description length of its path)
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
@@ -518,71 +428,12 @@ https://www.mapequation.org/navigator/
 
 
 <small>Münch, F. V. (2019). _Measuring the Networked Public – Exploring Network Science Methods for Large Scale Online Media Studies_ [PhD thesis, Queensland University of Technology]. [https://doi.org/10.5204/thesis.eprints.125543](https://doi.org/10.5204/thesis.eprints.125543)</small>
-</div></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-# Data Sources for (Online ((Social) Media)) Networks
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-## Repositories
-
-e.g.:
-* Netzschleuder: https://networks.skewed.de/, 
-* SNAP datasets: https://snap.stanford.edu/data/index.html
-* Network Repository: https://networkrepository.com/
-* and many more
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-## Repositories
-
-Pro                              | Contra
----------------------------------|-------------------------------------------
-Easy to access                   | Old data
-Fewer legal and ethical problems | Already studied, harder to find new topics
-Good for meta studies            | Need to trust the data collector
-Good for method testing          | Available info not tailored to your needs
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-## API
-
-Pro                                     | Contra
-----------------------------------------|-------------------------------------------
-New/live data                           | Often not historical data
-More control over what to collect       | Ethics and data protection considerations </br> apply
-Relatively stable machine readability   | Often vetting and acceptance </br>of Terms of Service (TOS)
-Legally quite safe                      | Rate limits and accessible data </br>shape research question
-Sometimes access to additional metadata | Can be deprecated/shut down
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-## Webscraping
-
-Pro                                     | Contra
-----------------------------------------|-------------------------------------------
-New/live data                           | Kind of unstable machine readability
-More control over what to collect       | More Ethics and data protection </br>considerations apply
-No vetting or acceptance of TOS         | Active countermeasures by platforms
-No rate limits                          | Technically often more complex setup
-In best case WYSIWYG                    |
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-Also possible, but less common for large networks:
-
-* Surveys
-* Questionaires
-* Data Donations
-* "Manual" Collection
-* ...
 </div></script></section></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-# Questions?
+Questions?
 
-@flxvctr
+@flxvctr(@mas.to), @pekasen(@mastodon.social)
 </div></script></section></div>
     </div>
 
