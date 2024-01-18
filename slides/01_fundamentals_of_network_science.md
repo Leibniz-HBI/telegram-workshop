@@ -10,39 +10,20 @@ mermaid:
 
 # 
 
-# Fundamentals of (Online ((Social) Media)) Network Analysis
+# Fundamentals of (Online ((Social) Media)) and Telegram Network Analysis
 
-## Lecture 1
-Online Social Networks, Elements of Networks, Network Measures, Data Sources
+Felix Victor Münch, Philipp Kessling
 
-
----
-
-# Who is this guy?
-
----
-
-# Why are you here?
-
-Who are you?
-
-Why did you choose this course?
-
-What are your expectations for this day?
+(shortened and adapted from https://flxvctr.github.io/Fundamentals-of-Online-Social-Network-Analysis/)
 
 ---
 
 # The Plan
 
-1. Online (Social) Media Network Fundamentals
-2. Network fundamentals
-3. *break*
-4. Network Analysis Methods
-5. Data Mining Possibilities and Difficulties
-
-Afterwards:
-
-Practical on Data Collection and Exploratory Analysis with Descriptive Statistics in Python
+1. Network Fundamentals
+2. Telegram Networks
+3. Network Analysis Methods
+4. Hands-on network analysis of Lützerath data
 
 ---
 
@@ -102,10 +83,9 @@ Münch, F. V. (2019). _Measuring the Networked Public – Exploring Network Scie
 
 --
 
-### The number and size of connected components indicates the influence of the network compared to outside sources
+### The number and size of connected components is a proxy for the influence of the platform compared to outside sources
 
 --
-
 ## Lead to Classifiable Communication Patterns
 
 Himelboim, I., Smith, M. A., Rainie, L., Shneiderman, B., & Espina, C. (2017). _Classifying Twitter topic-networks using social network analysis_. 1–38. [https://doi.org/10.1177/2056305117691545](https://doi.org/10.1177/2056305117691545)
@@ -137,16 +117,6 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 
 --
 
-### Australian Twittersphere
-
-![[Pasted image 20230318193253.png|x900]]
-
---
-
-![[Pasted image 20230318193337.png|x900]]
-
---
-
 ### German Twittersphere
 
 ![[Pasted image 20230318193447.png|x900]]
@@ -155,22 +125,14 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 
 ![[Pasted image 20230318193530.png|x900]]
 
---
-
-### German-Italian Twittersphere
-
-![[Pasted image 20230318193900.png|x900]]
-
---
-
-![[Pasted image 20230318193758.png|x900]]
-
---
-
-![[Pasted image 20230318193931.png|x900]]
-
 ---
 
+# Telegram Networks
+
+@PK
+
+
+---
 # Network Analysis Fundamentals
 
 --
@@ -287,38 +249,6 @@ The more shortest paths are going through a node, the higher its betweenness.
 
 --
 
-### Local Clustering Coefficient
-
-<split left="7" right="1" gap="4">
-
-
-</br></br></br></br></br></br>
-The number of realized edges divided by the number of possible edges between neighbouring nodes
-
-![[Pasted image 20230322193953.png|x800]]
-
-</split>
-
-Note:
-Image is public domain (https://commons.wikimedia.org/wiki/File:Clustering_coefficient_example.svg)
-
---
-
-### Important Global Network Measures
-
-
-**Global Clustering Coefficient** $= \frac{\text{number of closed triplets}}{\text{number of all triplets}}$
-
-**Diameter**: longest shortest path of the network
-
-**Density**:  $= \frac{\text{number of links}}{\text{number of possible links}}$
-
-**Average Shortest Path Length**
-
-**& Averages of most node measures (e.g., average degree, betweenness, closeness, …)**
-
---
-
 ## Networks within Networks
 
 --
@@ -342,27 +272,6 @@ Image CC0, https://commons.wikimedia.org/wiki/File:Critical_1000-vertex_Erd%C5%9
 
 --
 
-### Cliques
-
-![[Pasted image 20230321174955.png|x900]]
-
-note:
-Image is Public Domain: https://en.wikipedia.org/wiki/Clique_(graph_theory)#/media/File:VR_complex.svg
-
---
-
-### K-Cores
-
-![[Pasted image 20230322162554.png|x600]]
-
-(can also be used as a node centrality measure)
-
-note:
-The graph that remains after iteratively removing every node with less than `k` links.
-Image is CC0/public domain: https://en.wikipedia.org/wiki/Degeneracy_(graph_theory)#/media/File:2-degenerate_graph_2-core.svg
-
---
-
 ### Communities/Clusters
 
 Depend on the detection algorithms used. Two of the most popular are
@@ -371,7 +280,7 @@ Depend on the detection algorithms used. Two of the most popular are
 
 and
 
-* ***Map Equation (infomap)*** based on the lenght of stay of random walks in certain regions of the network (technically the minimization of the description length of its path)
+* ***Map Equation (infomap)*** based on the length of stay of random walks in certain regions of the network (technically the minimization of the description length of its path)
 
 --
 
@@ -423,66 +332,6 @@ https://www.mapequation.org/navigator/
 
 ---
 
-# Data Sources for (Online ((Social) Media)) Networks
+Questions?
 
---
-
-## Repositories
-
-e.g.:
-* Netzschleuder: https://networks.skewed.de/, 
-* SNAP datasets: https://snap.stanford.edu/data/index.html
-* Network Repository: https://networkrepository.com/
-* and many more
-
---
-
-## Repositories
-
-Pro                              | Contra
----------------------------------|-------------------------------------------
-Easy to access                   | Old data
-Fewer legal and ethical problems | Already studied, harder to find new topics
-Good for meta studies            | Need to trust the data collector
-Good for method testing          | Available info not tailored to your needs
-
---
-
-## API
-
-Pro                                     | Contra
-----------------------------------------|-------------------------------------------
-New/live data                           | Often not historical data
-More control over what to collect       | Ethics and data protection considerations </br> apply
-Relatively stable machine readability   | Often vetting and acceptance </br>of Terms of Service (TOS)
-Legally quite safe                      | Rate limits and accessible data </br>shape research question
-Sometimes access to additional metadata | Can be deprecated/shut down
-
---
-
-## Webscraping
-
-Pro                                     | Contra
-----------------------------------------|-------------------------------------------
-New/live data                           | Kind of unstable machine readability
-More control over what to collect       | More Ethics and data protection </br>considerations apply
-No vetting or acceptance of TOS         | Active countermeasures by platforms
-No rate limits                          | Technically often more complex setup
-In best case WYSIWYG                    | 
-
-
---
-
-Also possible, but less common for large networks:
-
-* Surveys
-* Questionaires
-* Data Donations
-* "Manual" Collection
-* ...
-
----
-
-# Questions?
-
-@flxvctr
+@flxvctr(@mas.to), @pekasen(@mastodon.social)
