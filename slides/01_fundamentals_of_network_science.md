@@ -134,6 +134,11 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 ## Reshares
 
 ![[Screenshot from 2024-01-23 18-58-14.png]]
+
+--
+
+![[tg-reshares.png]]
+
 --
 
 ## Mentions
@@ -142,9 +147,13 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 
 --
 
+![[tg-mentions.png]]
+
+--
+
 ## Replies
 
-![[Pasted image 20240123190342.png]]
+![[image.png]]
 
 ---
 # Network Analysis Fundamentals
