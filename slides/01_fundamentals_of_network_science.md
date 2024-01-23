@@ -129,19 +129,22 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 
 # Telegram Networks
 
----
+--
 
 ## Reshares
 
-
----
+![[Screenshot from 2024-01-23 18-58-14.png]]
+--
 
 ## Mentions
 
----
+![[Screenshot from 2024-01-23 18-58-14.png]]
+
+--
 
 ## Replies
 
+![[Pasted image 20240123190342.png]]
 
 ---
 # Network Analysis Fundamentals
