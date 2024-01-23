@@ -8,8 +8,12 @@ tegracli = "*"
 ipykernel = "*"
 jupyter = "*"
 networkx = "*"
+ponyexpress-telegram = {git = "https://github.com/Leibniz-HBI/ponyexpress-telegram"}
 
 [dev-packages]
 
 [requires]
 python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
