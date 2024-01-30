@@ -1,5 +1,6 @@
 # SMO Starter Workshop: Telegram
 
+
 [Presentation](https://leibniz-hbi.github.io/telegram-workshop/01_fundamentals_of_network_science)
 
 ## Tag 1
@@ -20,7 +21,7 @@ Es folgte eine abschließende Panel-Diskussion der Vortragenden.
 
 [Datengewinnung / Introduction to Telegram](https://github.com/Leibniz-HBI/telegram-workshop/blob/main/notebooks/01-introduction.ipynb)
 
-[Topic Modeling mit BERTopic](https://hub.binder.curvenote.dev/user/leibniz-hbi-tel-rkshop-bertopic-57wuclpa/lab/workspaces/auto-V)
+[Topic Modeling mit BERTopic](https://github.com/Leibniz-HBI/telegram-workshop-bertopic/blob/main/BERTopic_Workshop.ipynb)
 
 [Netzwerkanalyse](https://github.com/Leibniz-HBI/telegram-workshop/blob/main/notebooks/02-build-network.ipynb)
 
