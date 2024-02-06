@@ -6,13 +6,13 @@ Beginn mit [Präsentation](https://docs.google.com/presentation/d/1fwsriyuacwXxe
 
 Pablo Jost: ["Mapping a Dark Space: Challenges in Sampling and Classifying Non-Institutionalized Actors on Telegram"](https://github.com/Leibniz-HBI/telegram-workshop/blob/materials/Vortrag_Telegram_Sampling_20240120.pdf)
 
-Katarina Bader: ["Zwischen Staatsskepsis und Verschwörungsmythen: Eine Figurationsanalyse zur kommunikativen Konstruktion von Gegenöffentlichkeiten auf Telegram"](https://github.com/Leibniz-HBI/telegram-workshop/tree/main)
+Katarina Bader: ["Zwischen Staatsskepsis und Verschwörungsmythen: Eine Figurationsanalyse zur kommunikativen Konstruktion von Gegenöffentlichkeiten auf Telegram"](https://github.com/Leibniz-HBI/telegram-workshop/blob/materials/Figurationsanalyse%20Gegen%C3%B6ffentlichkeiten%20auf%20Telegram-Rinsdorf-Bader-Mueller.pdf)
 
 Tobias Schrimpf, Jan Dvorak: ["Aus dem Channel, auf die Straße! Wie die Querdenken-Bewegung ihren Protest auf Telegram organisiert – eine quantitative Netzwerkanalyse"](https://github.com/Leibniz-HBI/telegram-workshop/blob/materials/Telegram_Pr%C3%A4sentation.pdf)
 
 Pablo Jost: ["Distribution and Reception of Conspiracy Theories and Mobilization Calls on Telegram: Combining Evidence from a Content Analysis and Survey During the Pandemic"](https://github.com/Leibniz-HBI/telegram-workshop/blob/materials/Vortrag_Telegram_verschwo%CC%88rung.pdf)
 
-Gideon Wetzel: ["Die extrem rechte und verschwörungsideologische Telegram-Szene in Sachsen: Angebot und Nachfrage einer lokal eingebetteten Bewegung"](https://github.com/Leibniz-HBI/telegram-workshop/tree/main)
+Gideon Wetzel: ["Die extrem rechte und verschwörungsideologische Telegram-Szene in Sachsen: Angebot und Nachfrage einer lokal eingebetteten Bewegung"](https://github.com/Leibniz-HBI/telegram-workshop/blob/materials/240123-Gideon_Wetzel-Angebot_Nachfrage.pdf)
 
 Abschließend folgte eine Panel-Diskussion der Vortragenden. 
 
@@ -34,7 +34,3 @@ Diese können mit Klick auf die Grafik direkt in My Binder geöffnet werden. Die
 ## Acknowledgements
 
 Wir danken allen Autor:innen und Vortragenden!
-
-## Lizenz
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
